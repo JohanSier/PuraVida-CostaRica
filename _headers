@@ -1,4 +1,9 @@
 # Configuración para servir archivos APK
-Xuper_TV_Mod_emagoplay_07junio.apk
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/*.apk
   Content-Type: application/vnd.android.package-archive
   Access-Control-Allow-Origin: *

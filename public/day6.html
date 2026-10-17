@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 6: Rumbo al Pacífico | Costa Rica Trip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2C5F2D;
+            --secondary: #97BC62;
+            --dark: #222222;
+            --light: #F4F7F6;
+            --accent: #E67E22;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .hero {
+            height: 50vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://internationalliving.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fwv75stsetqy3%2F72VfG9y7EDEpGpBp3zAdE3%2F9c92b9f1df252b7b564bda61e6f2776a%2FGuide_to_Quepos__Costa_Rica_-_Cost_of_Living__Things_To_Do_and_More.jpg%3Fw%3D1800%26h%3D600%26q%3D60%26fit%3Dfill%26fm%3Dwebp&w=3840&q=60') center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 600px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -50px auto 50px auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .schedule {
+            margin-bottom: 30px;
+        }
+
+        .schedule h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .schedule-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .tips-section {
+            background: var(--primary);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .tips-section h2 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tip-box {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .back-link {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            width: 44px;
+            height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #111111;
+            text-decoration: none;
+            border-radius: 999px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+            z-index: 1000;
+            transition: transform 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+        }
+
+        .back-link:hover {
+            background: #f6f6f6;
+            transform: translateY(-1px);
+            box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32);
+        }
+
+        .back-link:active {
+            transform: translateY(0) scale(0.98);
+        }
+
+        .back-link:focus-visible {
+            outline: 3px solid rgba(0, 0, 0, 0.35);
+            outline-offset: 3px;
+        }
+
+        .back-link svg {
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+            .back-link { left: 16px; top: 16px; width: 52px; height: 52px; }
+            .back-link svg { width: 22px; height: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Día 6: Traslado al Pacífico</h1>
+        <p>6 de Diciembre - Cambio de paisaje hacia el mar</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="content-section">
+            <h2 class="section-title">Itinerario Detallado</h2>
+            <p>Día de viaje. De los bosques nubosos a las playas del Pacífico. Viaje largo pero económico. Disfruta el cambio de ecosistema.</p>
+            
+            <div class="schedule">
+                <h3>Horario del Día</h3>
+                <div class="schedule-item">
+                    <strong>5:00 AM:</strong> Desayuno temprano. Prepara equipaje.
+                </div>
+                <div class="schedule-item">
+                    <strong>6:00 AM:</strong> Bus de Monteverde a Puntarenas (~$4 USD, 2-3 horas).
+                </div>
+                <div class="schedule-item">
+                    <strong>9:00 AM:</strong> Llegada a Puntarenas. Conexión inmediata a Quepos/Manuel Antonio (~$4 USD, 2 horas).
+                </div>
+                <div class="schedule-item">
+                    <strong>11:00 AM:</strong> Llegada a Quepos. Check-in en alojamiento económico.
+                </div>
+                <div class="schedule-item">
+                    <strong>12:00 PM:</strong> Almuerzo en pueblo. Prueba ceviche o pescado fresco.
+                </div>
+                <div class="schedule-item">
+                    <strong>1:00 PM - 5:00 PM:</strong> Explora Quepos. Playa, centro, tiendas. Relájate.
+                </div>
+                <div class="schedule-item">
+                    <strong>5:00 PM:</strong> Atardecer en playa. Disfruta el Pacífico.
+                </div>
+                <div class="schedule-item">
+                    <strong>6:00 PM:</strong> Cena económica. Sodas locales o comida callejera.
+                </div>
+                <div class="schedule-item">
+                    <strong>7:00 PM en adelante:</strong> Descansa. Mañana parque nacional temprano.
+                </div>
+            </div>
+            
+            <h3>Recomendaciones Específicas</h3>
+            <ul>
+                <li><strong>Buses:</strong> Puntarenas es hub. Buses frecuentes, seguros. Total viaje ~5 horas.
+                </li>
+                <li><strong>Clima:</strong> Más calor en costa. Hidráate constantemente.
+                </li>
+                <li><strong>Alojamiento:</strong> Quepos tiene opciones baratas. Busca cerca del parque.
+                </li>
+                <li><strong>Seguridad:</strong> Quepos es turístico pero tranquilo. Cuidado con carteristas.
+                </li>
+                <li><strong>Preparación:</strong> Compra snacks para mañana. Parque no vende comida.
+                </li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">Gasto Aproximado del Día</h2>
+            <p>Estimación basada en opciones económicas. Total aproximado: <strong>230.000 COP (~58 USD)</strong></p>
+            <ul>
+                <li><strong>Buses Monteverde-Quepos:</strong> ~30.000 COP</li>
+                <li><strong>Alojamiento:</strong> ~150.000 COP</li>
+                <li><strong>Comida:</strong> ~50.000 COP</li>
+            </ul>
+        </section>
+
+        <section class="tips-section">
+            <h2>Consejos para Costa</h2>
+            <div class="tips-grid">
+                <div class="tip-box">
+                    <h3>Transporte Público</h3>
+                    <p>Excelente red de buses. Barato y confiable. Apps como Moovit ayudan.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Cambio de Clima</h3>
+                    <p>De montaña a costa: aclímate. Usa protector solar extra en playa.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Comida Marina</h3>
+                    <p>Pacífico rico en mariscos. Prueba fresco, pero verifica higiene.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Turismo Local</h3>
+                    <p>Quepos pequeño pero vibrante. Apoya negocios locales.</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="CostaRica.html" class="back-link" aria-label="Volver al itinerario principal">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21 12H9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+        </a>
+    </div>
+
+</body>
+</html>

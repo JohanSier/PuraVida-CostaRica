@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 1: Llegada & Ruta a La Fortuna | Costa Rica Trip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2C5F2D;
+            --secondary: #97BC62;
+            --dark: #222222;
+            --light: #F4F7F6;
+            --accent: #E67E22;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .hero {
+            height: 50vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://upload.wikimedia.org/wikipedia/commons/1/18/Aeropuerto_Internacional_Juan_Santamaría.jpg') center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 600px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -50px auto 50px auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .schedule {
+            margin-bottom: 30px;
+        }
+
+        .schedule h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .schedule-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .tips-section {
+            background: var(--primary);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .tips-section h2 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tip-box {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .back-link {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            width: 44px;
+            height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #111111;
+            text-decoration: none;
+            border-radius: 999px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+            z-index: 1000;
+            transition: transform 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+        }
+
+        .back-link:hover {
+            background: #f6f6f6;
+            transform: translateY(-1px);
+            box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32);
+        }
+
+        .back-link:active {
+            transform: translateY(0) scale(0.98);
+        }
+
+        .back-link:focus-visible {
+            outline: 3px solid rgba(0, 0, 0, 0.35);
+            outline-offset: 3px;
+        }
+
+        .back-link svg {
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+            .back-link { left: 16px; top: 16px; width: 52px; height: 52px; }
+            .back-link svg { width: 22px; height: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Día 1: Llegada a Costa Rica</h1>
+        <p>1 de Diciembre - Bienvenido a la tierra del Pura Vida</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="content-section">
+            <h2 class="section-title">Itinerario Detallado</h2>
+            <p>Tu aventura comienza hoy. Como colombiano, recuerda que Costa Rica es un destino seguro y amigable. El aeropuerto Juan Santamaría (SJO) es moderno y eficiente. Prepárate para el cambio cultural: la gente es súper amable y el "Pura Vida" es más que un slogan, es una filosofía de vida.</p>
+            
+            <div class="schedule">
+                <h3>Horario del Día</h3>
+                <div class="schedule-item">
+                    <strong>6:00 AM - 8:00 AM:</strong> Vuelo desde Bogotá. Recomiendo Wingo o Avianca para vuelos directos (aprox. 2.5 horas).
+                </div>
+                <div class="schedule-item">
+                    <strong>9:00 AM:</strong> Llegada al Aeropuerto SJO. Pasa migración (rápido para colombianos) y recoge tu equipaje.
+                </div>
+                <div class="schedule-item">
+                    <strong>10:00 AM - 11:00 AM:</strong> Desayuno en el aeropuerto o en San José. Cambia algunos dólares si necesitas (tipo de cambio favorable).
+                </div>
+                <div class="schedule-item">
+                    <strong>11:30 AM:</strong> Toma un Uber o taxi al Terminal 7-10 en San José (cerca del aeropuerto, ~$10-15 USD).
+                </div>
+                <div class="schedule-item">
+                    <strong>12:00 PM - 4:00 PM:</strong> Bus público a La Fortuna. Compra el tiquete en la terminal (~$5 USD). Disfruta del paisaje cambiante: de ciudad a volcanes.
+                </div>
+                <div class="schedule-item">
+                    <strong>4:00 PM:</strong> Llegada a La Fortuna. Check-in en tu alojamiento (busca hostales económicos como Hotel Arenal Observatory Lodge).
+                </div>
+                <div class="schedule-item">
+                    <strong>5:00 PM - 7:00 PM:</strong> Explora el pueblo. Visita el centro, compra provisiones.
+                </div>
+                <div class="schedule-item">
+                    <strong>7:00 PM:</strong> Cena en Soda La Parada. Prueba el "Casado" típico (arroz, frijoles, carne, plátano, ensalada) por ~$6-8 USD.
+                </div>
+                <div class="schedule-item">
+                    <strong>8:00 PM en adelante:</strong> Descansa. Mañana temprano comienza la aventura.
+                </div>
+            </div>
+            
+            <h3>Recomendaciones Específicas</h3>
+            <ul>
+                <li><strong>Transporte:</strong> Los buses en Costa Rica son seguros y puntuales. La Fortuna es un pueblo turístico pero económico.</li>
+                <li><strong>Dinero:</strong> Usa USD (aceptados en todas partes) o cólon. Evita cambiar mucho al principio.</li>
+                <li><strong>Seguridad:</strong> Costa Rica es uno de los países más seguros de Centroamérica. Camina tranquilo de día.</li>
+                <li><strong>Clima:</strong> En diciembre, calor húmedo (~25-30°C). Lleva repelente de insectos.</li>
+                <li><strong>Apps útiles:</strong> Instala Moovit para transporte, Google Translate (aunque muchos hablan inglés).</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">Gasto Aproximado del Día</h2>
+            <p>Estimación basada en opciones económicas. Total aproximado: <strong>265.000 COP (~67 USD)</strong></p>
+            <ul>
+                <li><strong>Transporte aeropuerto:</strong> ~50.000 COP (Uber/Taxi)</li>
+                <li><strong>Bus a La Fortuna:</strong> ~15.000 COP</li>
+                <li><strong>Alojamiento:</strong> ~150.000 COP (hostal económico)</li>
+                <li><strong>Comida:</strong> ~50.000 COP (cena)</li>
+            </ul>
+        </section>
+
+        <section class="tips-section">
+            <h2>Tips Generales para Viajar a Costa Rica</h2>
+            <div class="tips-grid">
+                <div class="tip-box">
+                    <h3>Moneda y Presupuesto</h3>
+                    <p>1 USD = ~520 CRC. Como colombiano, siente la diferencia: todo es más barato. Tu presupuesto de 5.3M COP es holgado.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Salud y Vacunas</h3>
+                    <p>No necesitas vacunas especiales. Toma precauciones con el sol y la comida callejera (aunque es segura).</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Idioma y Cultura</h3>
+                    <p>Español oficial, pero inglés en zonas turísticas. La gente es cálida, di "Pura Vida" y sonríe.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Ecoturismo</h3>
+                    <p>Costa Rica es líder en sostenibilidad. Respeta la naturaleza: no tires basura, usa senderos marcados.</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="CostaRica.html" class="back-link" aria-label="Volver al itinerario principal">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21 12H9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+        </a>
+    </div>
+
+</body>
+</html>
