@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 3: Catarata La Fortuna | Costa Rica Trip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2C5F2D;
+            --secondary: #97BC62;
+            --dark: #222222;
+            --light: #F4F7F6;
+            --accent: #E67E22;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .hero {
+            height: 50vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://misticopark.com/wp-content/uploads/2025/09/asasas.webp') center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 600px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -50px auto 50px auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .schedule {
+            margin-bottom: 30px;
+        }
+
+        .schedule h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .schedule-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .tips-section {
+            background: var(--primary);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .tips-section h2 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tip-box {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .back-link {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            width: 44px;
+            height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #111111;
+            text-decoration: none;
+            border-radius: 999px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+            z-index: 1000;
+            transition: transform 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+        }
+
+        .back-link:hover {
+            background: #f6f6f6;
+            transform: translateY(-1px);
+            box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32);
+        }
+
+        .back-link:active {
+            transform: translateY(0) scale(0.98);
+        }
+
+        .back-link:focus-visible {
+            outline: 3px solid rgba(0, 0, 0, 0.35);
+            outline-offset: 3px;
+        }
+
+        .back-link svg {
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+            .back-link { left: 16px; top: 16px; width: 52px; height: 52px; }
+            .back-link svg { width: 22px; height: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Día 3: Catarata La Fortuna</h1>
+        <p>3 de Diciembre - Poder de la naturaleza en cascada</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="content-section">
+            <h2 class="section-title">Itinerario Detallado</h2>
+            <p>La Catarata La Fortuna es una de las más espectaculares de Costa Rica. Prepárate para una caminata desafiante pero gratificante. Es un ícono del ecoturismo costarricense.</p>
+            
+            <div class="schedule">
+                <h3>Horario del Día</h3>
+                <div class="schedule-item">
+                    <strong>7:00 AM:</strong> Desayuno temprano. Café negro, frutas y pan dulce.
+                </div>
+                <div class="schedule-item">
+                    <strong>8:00 AM:</strong> Transporte a la catarata (taxi compartido ~$3 USD). Lleva agua, repelente y zapatos cómodos.
+                </div>
+                <div class="schedule-item">
+                    <strong>8:30 AM - 10:30 AM:</strong> Caminata al mirador superior. 500 escalones, pero vale la pena. Vistas panorámicas.
+                </div>
+                <div class="schedule-item">
+                    <strong>10:30 AM - 11:30 AM:</strong> Bajada a la base. Más escalones, pero acceso directo al agua. ¡Impresionante!
+                </div>
+                <div class="schedule-item">
+                    <strong>11:30 AM:</strong> Tiempo libre en la base. Fotos, relajación. Agua fresca y profunda.
+                </div>
+                <div class="schedule-item">
+                    <strong>12:00 PM:</strong> Regreso al pueblo. Almuerzo en restaurante local (~$8 USD).
+                </div>
+                <div class="schedule-item">
+                    <strong>1:00 PM - 5:00 PM:</strong> Tarde libre. Explora La Fortuna: centro pintoresco, tiendas, cafés. Si tienes presupuesto extra, tour de perezosos (~$25 USD).
+                </div>
+                <div class="schedule-item">
+                    <strong>5:00 PM:</strong> Compra recuerdos. Café, chocolate, artesanías.
+                </div>
+                <div class="schedule-item">
+                    <strong>6:00 PM:</strong> Cena típica. Prueba "olla de carne" o pescado fresco.
+                </div>
+                <div class="schedule-item">
+                    <strong>7:00 PM en adelante:</strong> Preparación para traslado mañana. Descansa.
+                </div>
+            </div>
+            
+            <h3>Recomendaciones Específicas</h3>
+            <ul>
+                <li><strong>Física:</strong> Los 500 escalones son intensos. Si tienes problemas de rodillas, quédate en el mirador superior.
+                </li>
+                <li><strong>Entrada:</strong> $18 USD. Compra en taquilla, no aceptan reservas online.
+                </li>
+                <li><strong>Agua:</strong> Potable en el pueblo, pero lleva botella reutilizable.
+                </li>
+                <li><strong>Guías:</strong> No necesitas guía oficial, pero si quieres historia, únete a un tour grupal.
+                </li>
+                <li><strong>Fotos:</strong> Mejor luz en mañana. Evita flash en naturaleza.
+                </li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">Gasto Aproximado del Día</h2>
+            <p>Estimación basada en opciones económicas. Total aproximado: <strong>260.000 COP (~66 USD)</strong></p>
+            <ul>
+                <li><strong>Catarata La Fortuna:</strong> ~60.000 COP</li>
+                <li><strong>Alojamiento:</strong> ~150.000 COP</li>
+                <li><strong>Comida:</strong> ~50.000 COP</li>
+            </ul>
+        </section>
+
+        <section class="tips-section">
+            <h2>Tips Adicionales</h2>
+            <div class="tips-grid">
+                <div class="tip-box">
+                    <h3>Agua Potable</h3>
+                    <p>En pueblos turísticos como La Fortuna, el agua del grifo es segura. Verifica en áreas rurales.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Compras</h3>
+                    <p>Café costarricense es excelente. Compra en cooperativas para apoyar locales.</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Conexión</h3>
+                    <p>Señal de celular buena en pueblos. Compra SIM local si viajas mucho (~$10 USD).</p>
+                </div>
+                <div class="tip-box">
+                    <h3>Respeto Local</h3>
+                    <p>Saluda a la gente, aprende frases básicas. Los ticos aprecian el interés cultural.</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="CostaRica.html" class="back-link" aria-label="Volver al itinerario principal">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21 12H9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+        </a>
+    </div>
+
+</body>
+</html>
